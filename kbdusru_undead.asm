@@ -154,7 +154,7 @@ KbdTables:
     palign
     dp e0scancode2vk
     dp e1scancode2vk
-    dw KLLF_ALTGR       ; Locale flags
+    dw 0       ; Locale flags
     dw KBD_VERSION
     db ligatureMaxChars ; Maximum ligature table characters
     db ligatureEntry    ; Count of bytes in each ligature row
